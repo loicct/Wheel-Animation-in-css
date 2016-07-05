@@ -1,0 +1,694 @@
+body {
+  background: white;
+  background: radial-gradient(white, black);
+  height: 580px;
+  overflow: hidden;
+}
+
+#cercle1 {
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  border:3px solid rgba(3, 41, 55, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12em;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: cer1;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 200px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes cer1 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+#cercle1_5 {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: -202px;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  border:1px solid rgba(3, 41, 55, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: cer1_5;
+  animation-timing-function: linear;
+}
+
+@keyframes cer1_5 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+#cercle2 {
+  margin-top: -305px;
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  border:2px solid rgba(3, 41, 55, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: cer2;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 200px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes cer2 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+#cercle2_5 {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: -52px;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  border:1px solid rgba(3, 41, 55, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: cer2_5;
+  animation-timing-function: linear;
+}
+
+@keyframes cer2_5 {
+  from {
+    transform: rotatex(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+#cercle3 {
+  margin-top: -320px;
+  border-radius:50%;
+  width:320px;
+  height:320px;
+  border:5px dashed rgba(255, 255, 255, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: cer3;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 50px rgba(235, 232, 0, 0.5);
+}
+
+@keyframes cer3 {
+  0% {
+    transform: rotateZ(0deg);
+    border-color: rgba(255, 255, 255, 1);
+  }
+  50% {
+    transform: rotateZ(-90deg);
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    transform: rotateZ(-180deg);
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+#cercle4 {
+  margin-top: -340px;
+  border-radius:50%;
+  width:340px;
+  height:340px;
+  border:5px dotted rgba(255, 255, 255, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: cer4;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 50px rgba(18, 128, 0, 0.5);
+}
+
+@keyframes cer4 {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#cercle5 {
+  margin-top: -325px;
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  border:2px solid rgba(3, 41, 55, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: cer5;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 200px rgba(0, 13, 107, 0.5);
+}
+
+@keyframes cer5 {
+  from {
+    transform: rotate3d(1, 1, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 1, 0, 360deg);
+  }
+}
+
+#cercle5_5 {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: -52px;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  border:1px solid rgba(3, 41, 55, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: cer5_5;
+  animation-timing-function: linear;
+}
+
+@keyframes cer5_5 {
+  from {
+    transform: rotate3d(1, 1, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(1, 1, 0, 450deg);
+  }
+}
+
+#cercle6 {
+  margin-top: -304px;
+  border-radius:50%;
+  width:300px;
+  height:300px;
+  border:2px solid rgba(3, 41, 55, 0.3);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: cer6;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 200px rgba(0, 13, 107, 0.5);
+}
+
+@keyframes cer6 {
+  from {
+    transform: rotate3d(1, -1, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(1, -1, 0, 360deg);
+  }
+}
+
+#cercle6_5 {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: -52px;
+  border-radius:50%;
+  width:50px;
+  height:50px;
+  border:1px solid rgba(3, 41, 55, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-name: cer6_5;
+  animation-timing-function: linear;
+}
+
+@keyframes cer6_5 {
+  from {
+    transform: rotate3d(1, -1, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(1, -1, 0, 450deg);
+  }
+}
+
+#cercle7 {
+  margin-top: -340px;
+  border-radius:50%;
+  width:360px;
+  height:360px;
+  border:5px dashed;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: cer7;
+  animation-timing-function: linear;
+
+  background-color: rgba(244, 242, 173, 0.22);
+}
+
+@keyframes cer7 {
+  0% {
+    transform: rotateZ(0deg);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 50px rgba(3, 3, 46, 0.95);
+  }
+  25% {
+    transform: rotateZ(-360deg);
+    border-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(223, 221, 87, 1);
+  }
+  50% {
+    transform: rotateZ(-720deg);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 50px 50px 250px rgba(255, 255, 255, 1);
+  }
+  75% {
+    transform: rotateZ(-1080deg);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 50px 50px 250px rgba(255, 255, 255, 1);
+  }
+  100% {
+    transform: rotateZ(0deg);
+    border-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 50px rgba(3, 3, 46, 0.95);
+  }
+}
+
+#groupe {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: groupe;
+  animation-timing-function: linear;
+}
+
+@keyframes groupe {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#anim {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: anim;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes anim {
+  0% {
+    transform: scale(.8);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(.8);
+  }
+}
+
+
+
+#contour1 {
+  margin-top: -230px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(0, 46, 83, 0.63);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour1;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 80px rgba(0, 11, 255, 0.83);
+}
+
+@keyframes contour1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#contour2 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(156, 159, 0, 0.71);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour2;
+  animation-timing-function: linear;
+  box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.83);
+}
+
+@keyframes contour2 {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(370deg);
+  }
+}
+
+#contour3 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(0, 46, 83, 0.63);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour3;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 80px rgba(0, 9, 200, 0.83);
+}
+
+@keyframes contour3 {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(380deg);
+  }
+}
+
+#contour4 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(2, 99, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour4;
+  animation-timing-function: linear;
+  box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.83);
+}
+
+@keyframes contour4 {
+  0% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(390deg);
+  }
+}
+
+#contour5 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(0, 46, 83, 0.63);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour5;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 80px rgba(0, 6, 134, 0.83);
+}
+
+@keyframes contour5 {
+  0% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(400deg);
+  }
+}
+
+#contour6 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(149, 0, 0, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour6;
+  animation-timing-function: linear;
+  box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.83);
+}
+
+@keyframes contour6 {
+  0% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(410deg);
+  }
+}
+
+#contour7 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(0, 46, 83, 0.63);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour7;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 80px rgba(0, 3, 69, 0.83);
+}
+
+@keyframes contour7 {
+  0% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(420deg);
+  }
+}
+
+#contour8 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(83, 0, 218, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour8;
+  animation-timing-function: linear;
+  box-shadow: 1px 1px 50px rgba(255, 255, 255, 0.83);
+}
+
+@keyframes contour8 {
+  0% {
+    transform: rotate(70deg);
+  }
+  100% {
+    transform: rotate(430deg);
+  }
+}
+
+#contour9 {
+  margin-top: -390px;
+  width:380px;
+  height:380px;
+  border:5px solid rgba(0, 46, 83, 0.63);
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-name: contour9;
+  animation-timing-function: linear;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.83);
+}
+
+@keyframes contour9 {
+  0% {
+    transform: rotate(80deg);
+  }
+  100% {
+    transform: rotate(440deg);
+  }
+}
+
+#contour10 {
+  margin-top: -478px;
+  border-radius: 50%;
+  width:545px;
+  height:545px;
+  border:10px solid;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-name: contour10;
+  animation-timing-function: linear;
+  box-shadow: 4px 4px 0px rgba(255, 255, 255, 0.83);
+}
+
+@keyframes contour10 {
+  0% {
+    transform: rotate(0deg);
+    border-color: rgba(1, 3, 48, 1);
+  }
+  50% {
+    transform: rotate(180deg);
+    border-color: rgba(111, 123, 224, 1);
+  }
+  100% {
+    transform: rotate(360deg);
+    border-color: rgba(1, 3, 48, 1);
+  }
+}
+
+#particules1 {
+  background-image: url(images/particules.png);
+  height: 800px;
+  width: 1500px;
+  margin-top: -650px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: particules1;
+  animation-timing-function: linear;
+}
+
+@keyframes particules1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(160deg);
+  }
+}
+
+#particules2 {
+  background-image: url(images/particules.png);
+  height: 800px;
+  width: 1500px;
+  margin-top: -650px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: particules2;
+  animation-timing-function: linear;
+}
+
+@keyframes particules2 {
+  0% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(570deg);
+  }
+}
+
+#particules3 {
+  background-image: url(images/particules.png);
+  height: 800px;
+  width: 1500px;
+  margin-top: -650px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: particules3;
+  animation-timing-function: linear;
+}
+
+@keyframes particules3 {
+  0% {
+    transform: rotate(-45deg);
+  }
+  100% {
+    transform: rotate(225deg);
+  }
+}
+
+#particules4 {
+  background-image: url(images/particules.png);
+  height: 800px;
+  width: 1500px;
+  margin-top: -1100px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .05;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: particules4;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes particules4 {
+  0% {
+
+    transform: scale(1.2);
+  }
+  50% {
+
+    transform: scale(1.4);
+  }
+  100% {
+
+    transform: scale(1.2);
+  }
+}
+
+#particules5 {
+  background-image: url(images/particules.png);
+  height: 2000px;
+  width: 2000px;
+  margin-top: -1500px;
+  margin-left: -200px;
+  margin-right: auto;
+  opacity: .2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-name: particules5;
+  animation-timing-function: linear;
+}
+
+@keyframes particules5 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
